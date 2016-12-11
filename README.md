@@ -8,7 +8,7 @@ nativebridge://functionName/paramter1/parameter2/parameter3
 ```
 * Your urls must be start with nativebridge://
 * Your functionName and parameters must be valid for url standards.
-* If you want to pass url as parameter, you must url decode two times.
+* If you want to pass url as parameter, you must decode parameter two times.
 
 Examples:
 ```
