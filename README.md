@@ -58,6 +58,23 @@ final NativeBridgeBuilder.SimpleChecker checker =  builder.buildChecker();
 ```
 
 
+###Gradle
+Add it in your root build.gradle at the end of repositories:
+```
+ 	allprojects {
+ 		  repositories {
+ 			 ...
+ 			 maven { url "https://jitpack.io" }
+ 		 }
+ 	}
+```
+Add the dependency
+```
+ 	dependencies {
+	        compile 'com.github.slmyldz:WebViewNativeBridge:1.0'
+	}
+```
+
 ####License
 ```
 The MIT License (MIT)
