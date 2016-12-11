@@ -38,7 +38,7 @@ nativebridge://goUri/https%253A%252F%252Fgithub.com%252Fslm #parameter1 = https:
       webView.setWebViewClient(client);
 
 ```
-If you use already a custom WebViewClient you can use that library like that.
+If you use already a custom WebViewClient you can use like that.
 
 ```
 ...
