@@ -2,7 +2,7 @@
 
 This library allows you to send simple data from WebView to Java. Sends the data via url.
 
-####Url Structure
+#### Url Structure
 ```
 nativebridge://functionName/paramter1/parameter2/parameter3
 ```
@@ -18,7 +18,7 @@ nativebridge://showAlertDialog/Alert%20Title/Alert%20Message # parameter1 = Aler
 nativebridge://goUri/https%253A%252F%252Fgithub.com%252Fslm #parameter1 = https:/github.com/slm | url parameter decoded two times
 ```
 
-####In Android Usage:
+#### In Android Usage:
 
 ```
       NativeBridgeBuilder builder = new NativeBridgeBuilder()
@@ -58,7 +58,7 @@ final NativeBridgeBuilder.SimpleChecker checker =  builder.buildChecker();
 ```
 
 
-###Gradle
+### Gradle
 Add it in your root build.gradle at the end of repositories:
 ```
  	allprojects {
@@ -75,7 +75,7 @@ Add the dependency
 	}
 ```
 
-####License
+#### License
 ```
 The MIT License (MIT)
 Copyright (c) 2016 Selim YILDIZ
